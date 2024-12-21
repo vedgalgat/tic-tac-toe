@@ -1,0 +1,82 @@
+@media screen and (max-width:600px) {
+    body{
+        background:#110505;
+
+    }
+    
+    h1{
+        color: yellow;
+        font-size: 1.9rem;
+        text-align: center;
+    }
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top:15vw;
+        height: auto;
+        width: 100%;
+      
+    }
+
+    .hero {
+        position: absolute;
+        height: 100%;
+        width:70%;
+        top: 10vw;
+        gap: 10vw;
+    
+    }
+
+    
+.box {
+    height:15vw;
+    width:15vw;
+    background-color: rgba(20, 182, 203, 0.98);
+    border-radius: 10px;
+    font-size: 1.5rem;
+    border: none;
+}
+
+#btn {
+    padding:4vw;
+    width: auto;
+    height: 5vw 8vw ;
+    border-radius: 40px;
+    background-color: rgba(4, 105, 105, 0.719);
+    box-shadow: 0 0 10px cyan;
+    color: rgb(255, 255, 10);
+    font-size: 1.5rem;
+    position: relative;
+    top: 7vw;
+
+}
+.msg {
+    color: rgba(224, 15, 168, 0.976);
+    font-size: 2rem;
+    font-weight: bold;
+    top: 10vw;
+    position: relative;
+    display: inline;
+}
+
+.hide {
+    display: none;
+}
+
+.links {
+    position:relative;
+    top:180vw;
+    display: inline;
+  
+}
+.links p {
+    font-size: 1.5rem;
+    color: yellow;
+    text-align: center;
+    margin-left: 10px;
+}
+
+
+}
