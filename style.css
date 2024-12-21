@@ -11,13 +11,8 @@ body {
 
 }
 
-<<<<<<< HEAD
 h1 {
     color: chartreuse;
-=======
- h1{
-    color:rgba(128, 255, 0, 0.686);
->>>>>>> 221e09565b1791f75999a3cbc53ff2ccef9944c8
     text-align: left;
     margin-left: 1vw;
     margin-top: 1vw;
